@@ -54,7 +54,7 @@ $b .= "There!";
 ${date("M")} = "Worked";
 echo ${date("M")};
 ?>
-
+<br>
 <?php
 class someclass {
     var $a = "variable a";
@@ -74,7 +74,7 @@ $three = "four";
 $four = "five";
 echo $$$$one; //prints 'five'.
 ?>
-
+<br>
 <?= $b ?>
 
 
