@@ -21,12 +21,23 @@
         ];
 
         $foo = new foo();
+
+        class Bro {
+            public static function hello() {
+                echo 'Hello world!';
+            }
+        }
+        $my_bro = 'Bro';
 ?>
 <?= $h1.$text.$h1end ?>
 
 <?= $array['foo']?>
 
 <?= $foo->{bar} ?>
+
+<br>
+
+<?php $my_bro::hello(); //prints 'Hello world!' ?>
 
 
 
