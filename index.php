@@ -48,6 +48,33 @@ $b .= "There!";
 
 ?>
 
+<br>
+
+<?php
+${date("M")} = "Worked";
+echo ${date("M")};
+?>
+
+<?php
+class someclass {
+    var $a = "variable a";
+    var $b = "another variable: b";
+}
+
+$c = new someclass;
+$d = "b";
+echo $c->{$d};
+?>
+
+<br>
+<?php
+$one = "two";
+$two = "three";
+$three = "four";
+$four = "five";
+echo $$$$one; //prints 'five'.
+?>
+
 <?= $b ?>
 
 
