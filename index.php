@@ -72,7 +72,8 @@
         $two = "three";
         $three = "four";
         $four = "five";
-        echo $$$$one; //prints 'five'.
+        $five = "six";
+        echo $$$$$one; //prints 'six'.
 ?>
 <br>
 <?= $b ?>
