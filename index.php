@@ -43,38 +43,47 @@
 
 <?php
 
-$b = "Hello ";
-$b .= "There!";
+        $b = "Hello ";
+        $b .= "There!";
 
 ?>
 
 <br>
 
 <?php
-${date("M")} = "Worked";
-echo ${date("M")};
+        ${date("M")} = "Worked";
+        echo ${date("M")};
 ?>
 <br>
 <?php
-class someclass {
-    var $a = "variable a";
-    var $b = "another variable: b";
-}
+        class someclass {
+            var $a = "variable a";
+            var $b = "another variable: b";
+        }
 
-$c = new someclass;
-$d = "b";
-echo $c->{$d};
+        $c = new someclass;
+        $d = "b";
+        echo $c->{$d};
 ?>
 
 <br>
 <?php
-$one = "two";
-$two = "three";
-$three = "four";
-$four = "five";
-echo $$$$one; //prints 'five'.
+        $one = "two";
+        $two = "three";
+        $three = "four";
+        $four = "five";
+        echo $$$$one; //prints 'five'.
 ?>
 <br>
 <?= $b ?>
+    <br><br>
+<?php
+
+        $_POST['action'] ='lola hola lalala';
+        $action = (empty($_POST['action'])) ? 'default' : $_POST['action'];
+        echo $action;
+
+?>
+
 
 
