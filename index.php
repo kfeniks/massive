@@ -33,12 +33,21 @@
 
 <?= $array['foo']?>
 
+<br>
+
 <?= $foo->{bar} ?>
 
 <br>
 
 <?php $my_bro::hello(); //prints 'Hello world!' ?>
 
+<?php
 
+$b = "Hello ";
+$b .= "There!";
+
+?>
+
+<?= $b ?>
 
 
