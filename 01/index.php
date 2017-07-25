@@ -36,3 +36,7 @@ if($c > $r xor $r > $c){
 echo "<br/>";
 $speed = 55;
 echo ($speed <= 60) ? "Скорость в пределах нормы" : "Превышение скорости !";
+echo "<br/>";
+$value = '';
+
+echo $var = (empty($value)) ? 80 : $value;
