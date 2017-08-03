@@ -44,3 +44,13 @@ echo "Гость сказал: \"Всем привет!\"";
 
 ?>
 
+<br>
+<br>
+
+<?php
+$a = 50;
+$b = 70;
+
+echo "Now we can see on {$a}'s year and on {$b}'s too also.";
+?>
+
