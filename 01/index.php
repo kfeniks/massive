@@ -64,3 +64,5 @@ switch($speed)
         break;
 
 }
+
+echo 'new<br>';
