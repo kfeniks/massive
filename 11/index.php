@@ -24,6 +24,10 @@ function myThirdFunction($array){
     }
 }
 
+function myFourFunction($day = 'New day'){
+    echo "<h1>Today is ".$day."!</h1>";
+}
+
 myFirstFunction();
 
 //make string to massive
@@ -41,3 +45,5 @@ mySecondFunction('Alexey', 'Dubinin');
 $array = array('Azure', 'Blue', 'Coral', 'Gray');
 
 myThirdFunction($array);
+
+myFourFunction();
