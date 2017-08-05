@@ -16,6 +16,14 @@ function mySecondFunction($name, $secondname){
     echo "<h1>Good day, ".$name." ".$secondname."!</h1>";
 }
 
+function myThirdFunction($array){
+    foreach ($array as $color){
+        echo 'I like '. $color;
+        echo ',';
+        echo '<br>';
+    }
+}
+
 myFirstFunction();
 
 //make string to massive
@@ -29,3 +37,7 @@ print_r($result);
 echo '</pre>';
 
 mySecondFunction('Alexey', 'Dubinin');
+
+$array = array('Azure', 'Blue', 'Coral', 'Gray');
+
+myThirdFunction($array);
